@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.sidebar .author-box {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.sidebar .author-box .author-txt {
+  color: #fff;
+}
+.sidebar .author-box .author-img {
+  color: #fff;
+  width: 30%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.sidebar .author-box .author-img img {
+  width: 100%;
+}
+.sidebar .author-contact {
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+}
+.sidebar .author-contact ul {
+  list-style: none;
+}
+.sidebar .author-contact ul li:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+.sidebar .author-contact ul .fa {
+  line-height: 45px;
+  width: 50px;
+  text-align: center;
+  margin-right: 20px;
+  font-size: 27px;
+}
+.sidebar .fa-twitter-square {
+  color: #55acee;
+}
+.sidebar .fa-facebook-square {
+  color: #3b5998;
+}
+.sidebar .fa-linkedin {
+  color: #007bb6;
+}
+.sidebar .fa-tumblr-square {
+  color: #32506d;
+}
+.sidebar a {
+  text-decoration: none;
+}
+.sidebar a:hover {
+  text-decoration-line: underline;
+  color: #55acee;
+}
+.content-wrapper .items {
+  margin-bottom: 40px;
+}
+.page {
+  padding: 15px;
+}
+.page .items {
+  padding-bottom: 40px;
+}
+.page .proimg {
+  width: 30%;
+}
+.page .proimg img {
+  width: 100%;
+  vertical-align: middle;
+}
+.page .protxt {
+  padding-top: 1em;
+}
+.prolist {
+  height: 100%;
+}
+.prolist .filtr-item,
+.prolist .portfolio {
+  width: 100%!important;
+  background: #fefefe;
+  padding: 25px 25px 35px 25px;
+  min-height: 130px;
+  position: relative;
+  -webkit-box-shadow: 0px 3px 3px -3px #ccc;
+  box-shadow: 0px 3px 3px -3px #ccc;
+  cursor: pointer;
+}
+.prolist .filtr-item .pro_box,
+.prolist .portfolio .pro_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.prolist .filtr-item .proimg,
+.prolist .portfolio .proimg {
+  width: 30%;
+}
+.prolist .filtr-item .proimg img,
+.prolist .portfolio .proimg img {
+  width: 100%;
+  vertical-align: middle;
+  padding: .5em;
+}
+.prolist .filtr-item .protxt,
+.prolist .portfolio .protxt {
+  width: 70%;
+  padding: 1em;
+}
+.prolist .filtr-item .protxt p,
+.prolist .portfolio .protxt p {
+  margin-bottom: 5px;
+}
+.prolist .filtr-item .protxt .detail,
+.prolist .portfolio .protxt .detail {
+  cursor: pointer;
+}
+.prolist .filtr-item .protxt .detail-txt,
+.prolist .portfolio .protxt .detail-txt {
+  height: 100%;
+  background-color: #fff;
+  padding: 10px 0 10px 15px;
+  margin-top: 10px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px 2px #ddd;
+}
+.prolist .filtr-item .protxt .detail-txt ul,
+.prolist .portfolio .protxt .detail-txt ul {
+  list-style: disc;
+  margin: 0 15px;
+}
